@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001 /* WealthWiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000101 /* WealthWiseApp.swift */; };
+		AA000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000102 /* ContentView.swift */; };
+		AA000010 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000110 /* TransactionModel.swift */; };
+		AA000011 /* BudgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000111 /* BudgetModel.swift */; };
+		AA000012 /* SavingsGoalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000112 /* SavingsGoalModel.swift */; };
+		AA000013 /* MonobankAccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000113 /* MonobankAccountModel.swift */; };
+		AA000014 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000114 /* CategoryModel.swift */; };
+		AA000020 /* MonobankService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000120 /* MonobankService.swift */; };
+		AA000021 /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000121 /* AIService.swift */; };
+		AA000022 /* BudgetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000122 /* BudgetService.swift */; };
+		AA000030 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000130 /* DashboardViewModel.swift */; };
+		AA000031 /* BudgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000131 /* BudgetViewModel.swift */; };
+		AA000032 /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000132 /* TransactionViewModel.swift */; };
+		AA000033 /* SavingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000133 /* SavingsViewModel.swift */; };
+		AA000034 /* AIInsightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000134 /* AIInsightsViewModel.swift */; };
+		AA000040 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000140 /* AppTheme.swift */; };
+		AA000050 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000150 /* CardView.swift */; };
+		AA000051 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000151 /* DashboardView.swift */; };
+		AA000052 /* TransactionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000152 /* TransactionRowView.swift */; };
+		AA000053 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000153 /* TransactionsView.swift */; };
+		AA000054 /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000154 /* BudgetView.swift */; };
+		AA000055 /* SavingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000155 /* SavingsView.swift */; };
+		AA000056 /* AIInsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000156 /* AIInsightsView.swift */; };
+		AA000057 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000157 /* SettingsView.swift */; };
+		AA000058 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000158 /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA000101 /* WealthWiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WealthWiseApp.swift; sourceTree = "<group>"; };
+		AA000102 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA000110 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		AA000111 /* BudgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetModel.swift; sourceTree = "<group>"; };
+		AA000112 /* SavingsGoalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsGoalModel.swift; sourceTree = "<group>"; };
+		AA000113 /* MonobankAccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonobankAccountModel.swift; sourceTree = "<group>"; };
+		AA000114 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		AA000120 /* MonobankService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonobankService.swift; sourceTree = "<group>"; };
+		AA000121 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
+		AA000122 /* BudgetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetService.swift; sourceTree = "<group>"; };
+		AA000130 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		AA000131 /* BudgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewModel.swift; sourceTree = "<group>"; };
+		AA000132 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		AA000133 /* SavingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsViewModel.swift; sourceTree = "<group>"; };
+		AA000134 /* AIInsightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIInsightsViewModel.swift; sourceTree = "<group>"; };
+		AA000140 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		AA000150 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		AA000151 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		AA000152 /* TransactionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRowView.swift; sourceTree = "<group>"; };
+		AA000153 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		AA000154 /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
+		AA000155 /* SavingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsView.swift; sourceTree = "<group>"; };
+		AA000156 /* AIInsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIInsightsView.swift; sourceTree = "<group>"; };
+		AA000157 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AA000158 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		AAPROD001 /* WealthWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WealthWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		AAGROUP01 = {
+			isa = PBXGroup;
+			children = (
+				AAGROUP10 /* WealthWise */,
+				AAGROUP99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAGROUP10 /* WealthWise */ = {
+			isa = PBXGroup;
+			children = (
+				AAGROUP11 /* App */,
+				AAGROUP12 /* Models */,
+				AAGROUP13 /* Services */,
+				AAGROUP14 /* ViewModels */,
+				AAGROUP15 /* Views */,
+				AAGROUP16 /* Resources */,
+			);
+			path = WealthWise;
+			sourceTree = "<group>";
+		};
+		AAGROUP11 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AA000101 /* WealthWiseApp.swift */,
+				AA000102 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AAGROUP12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA000110 /* TransactionModel.swift */,
+				AA000111 /* BudgetModel.swift */,
+				AA000112 /* SavingsGoalModel.swift */,
+				AA000113 /* MonobankAccountModel.swift */,
+				AA000114 /* CategoryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AAGROUP13 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA000120 /* MonobankService.swift */,
+				AA000121 /* AIService.swift */,
+				AA000122 /* BudgetService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AAGROUP14 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA000130 /* DashboardViewModel.swift */,
+				AA000131 /* BudgetViewModel.swift */,
+				AA000132 /* TransactionViewModel.swift */,
+				AA000133 /* SavingsViewModel.swift */,
+				AA000134 /* AIInsightsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AAGROUP15 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA000150 /* CardView.swift */,
+				AA000151 /* DashboardView.swift */,
+				AA000152 /* TransactionRowView.swift */,
+				AA000153 /* TransactionsView.swift */,
+				AA000154 /* BudgetView.swift */,
+				AA000155 /* SavingsView.swift */,
+				AA000156 /* AIInsightsView.swift */,
+				AA000157 /* SettingsView.swift */,
+				AA000158 /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAGROUP16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA000140 /* AppTheme.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AAGROUP99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAPROD001 /* WealthWise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AATARGET1 /* WealthWise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABUILDCONFIG1 /* Build configuration list for PBXNativeTarget "WealthWise" */;
+			buildPhases = (
+				AAPHASE01 /* Sources */,
+				AAPHASE02 /* Frameworks */,
+				AAPHASE03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WealthWise;
+			productName = WealthWise;
+			productReference = AAPROD001 /* WealthWise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAPROJECT1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AATARGET1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AABUILDCONFIG0 /* Build configuration list for PBXProject "WealthWise" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAGROUP01;
+			productRefGroup = AAGROUP99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AATARGET1 /* WealthWise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAPHASE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001 /* WealthWiseApp.swift in Sources */,
+				AA000002 /* ContentView.swift in Sources */,
+				AA000010 /* TransactionModel.swift in Sources */,
+				AA000011 /* BudgetModel.swift in Sources */,
+				AA000012 /* SavingsGoalModel.swift in Sources */,
+				AA000013 /* MonobankAccountModel.swift in Sources */,
+				AA000014 /* CategoryModel.swift in Sources */,
+				AA000020 /* MonobankService.swift in Sources */,
+				AA000021 /* AIService.swift in Sources */,
+				AA000022 /* BudgetService.swift in Sources */,
+				AA000030 /* DashboardViewModel.swift in Sources */,
+				AA000031 /* BudgetViewModel.swift in Sources */,
+				AA000032 /* TransactionViewModel.swift in Sources */,
+				AA000033 /* SavingsViewModel.swift in Sources */,
+				AA000034 /* AIInsightsViewModel.swift in Sources */,
+				AA000040 /* AppTheme.swift in Sources */,
+				AA000050 /* CardView.swift in Sources */,
+				AA000051 /* DashboardView.swift in Sources */,
+				AA000052 /* TransactionRowView.swift in Sources */,
+				AA000053 /* TransactionsView.swift in Sources */,
+				AA000054 /* BudgetView.swift in Sources */,
+				AA000055 /* SavingsView.swift in Sources */,
+				AA000056 /* AIInsightsView.swift in Sources */,
+				AA000057 /* SettingsView.swift in Sources */,
+				AA000058 /* OnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAPHASE02 /* Frameworks */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAPHASE03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AABCONFIG01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AABCONFIG02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AABCONFIG03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "WealthWise uses Face ID to protect your financial data.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wealthwise.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AABCONFIG04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "WealthWise uses Face ID to protect your financial data.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wealthwise.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AABUILDCONFIG0 /* Build configuration list for PBXProject "WealthWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABCONFIG01 /* Debug */,
+				AABCONFIG02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABUILDCONFIG1 /* Build configuration list for PBXNativeTarget "WealthWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABCONFIG03 /* Debug */,
+				AABCONFIG04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAPROJECT1 /* Project object */;
+}
